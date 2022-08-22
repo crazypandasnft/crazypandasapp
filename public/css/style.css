@@ -1,0 +1,498 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.loader {
+  background-color: #000000;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  height: 100vh;
+  z-index: 99;
+}
+
+.loader img {
+  width: 360px;
+}
+
+.navbar-collapse {
+  z-index: 10;
+}
+
+.panda-imgcontainer {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.bgvideo {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.bgvideo video {
+  z-index: -100;
+  width: auto;
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.crazy-panda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crazy-panda img {
+  width: 54%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-bgimg {
+  width: 100%;
+
+  /* position: absolute;
+  bottom: 0; 
+  left: 50%;
+  transform: translate(-50%, 0%); */
+}
+
+.home-bg {
+  background-image: url("/image/bg6.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.navbar-light .navbar-brand {
+  color: white !important;
+}
+
+.navtext {
+  font-size: large;
+  color: white !important;
+  font-weight: 900;
+  transition: transform 750ms;
+  will-change: transform;
+}
+
+.navtext:hover,
+.navtext:focus {
+  color: rgb(0, 138, 14) !important;
+
+  transition: all 0.5s ease-out;
+  transform: translateY(10px);
+}
+
+.navbar-brand img {
+  height: 60px;
+  transition: transform 750ms;
+  will-change: transform;
+}
+
+.navbar-brand img:hover,
+.navbar-brand img:focus {
+  transform: translateY(10px);
+}
+
+.nav-item .nav-icon {
+  font-size: 25px;
+  padding: 0px 7px;
+}
+
+.nav-item .nav-icon:hover {
+  font-size: 28px;
+}
+
+.navbar-toggler {
+  background-color: #fff !important;
+}
+
+.heading {
+  color: white;
+}
+
+/* STAKE NAVBAR CSS */
+
+.staking-box {
+  margin-bottom: 140px;
+}
+
+.stakenavlink {
+  color: white !important;
+}
+
+.stakingsection {
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+/* Floating Animation */
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-36px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+.panda {
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  /* border: 5px white solid; */
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  transform: translatey(0px);
+  animation: float 4s ease-in-out infinite;
+}
+
+.panda img {
+  height: auto;
+  width: 100%;
+}
+
+/* .stakingsection img {
+  height: 180px;
+  width: 180px;
+  margin-bottom: 12px;
+  transition: transform 750ms;
+  will-change: transform;
+}
+
+.stakingsection img:hover,
+.stakingsection img:focus {
+  transform: translateY(10px);
+} */
+
+.staking-title {
+  color: white;
+  font-weight: bold;
+  font-size: 38px;
+  background: linear-gradient(
+    90deg,
+    #fdcb6e 0,
+    #d63031 35%,
+    #e84393 75%,
+    #6c5ce7
+  );
+  border-radius: 6px;
+  padding: 8px 32px;
+}
+
+.stakingtext {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.stakingtext p {
+  font-weight: 500;
+  margin-bottom: 0 !important;
+}
+.stakingtext h1 {
+  font-size: 42px;
+  font-weight: bold;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.walletcss {
+  color: white;
+  background-color: rgb(3, 102, 69);
+  border-radius: 4px;
+  padding: 12px 32px;
+  cursor: pointer;
+
+  transition: transform 1s;
+}
+
+.walletcss:hover {
+  color: white;
+  background-color: rgb(40, 163, 122);
+  border-radius: 4px;
+  padding: 12px 32px;
+
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+/*------------------------------------------ GAME ------------------------------------------ */
+
+.game-bg {
+  background-image: url("/image/game-bg.png");
+  width: 100%;
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
+}
+
+.staking {
+  background-image: url("/image/staking.jpg");
+  width: 100%;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo-section img {
+  width: 100%;
+}
+
+.game-logo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+
+.playnow-btn {
+  /* width: 360px;
+  height: 114px; */
+  display: -webkit-box;
+  transition: transform 1s;
+}
+
+.playnow-btn:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+/*------------------------------------------ story------------------------------------------- */
+
+.story-bg {
+  background-image: url("/image/mainbg.jpg");
+  width: 100%;
+  height: 100vh !important;
+  background-size: cover;
+  background-position: center;
+  filter: drop-shadow(0px 10px 14px rgba(0, 0, 0, 0.5));
+}
+
+.bg-black {
+  --bs-bg-opacity: 0.3 !important;
+}
+
+.hellomsg {
+  background-image: url("/image/space_galaxy_planets.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 520px; */
+}
+
+.hellomsg h1 {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 70px;
+
+  color: #ffffff;
+}
+
+.hellomsg p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+.hellomsg-text {
+  display: flex;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.hellomsg-text h1 {
+  margin-right: 28px;
+  border-left: 6px solid #0bda51;
+}
+
+.panda-info {
+  background-image: url("/image/background.png");
+  width: 100%;
+  background-size: cover;
+}
+
+.pandainfo-container {
+  padding: 120px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pandainfo-container img {
+  border-radius: 8px;
+}
+
+.pandainfo-text h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 116px;
+  margin-bottom: 80px;
+
+  color: #ffffff;
+}
+
+.line {
+  border-left: #0bda51 6px solid;
+}
+
+.pandainfo-text p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.h1margin {
+  margin-left: 104px;
+}
+
+.black-bg {
+  background-color: #000000;
+}
+
+.videosection-container {
+  display: flex;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.videosection-container video {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.videosection-container img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.blackbg-text {
+  margin-left: 180px;
+}
+
+.blackbg-text p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.blackbg-text h3 {
+  border-left: #0bda51 6px solid;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #ffffff;
+}
+
+.footer-pandaicon img {
+  width: 100px;
+  height: 100px;
+}
+
+.footer-pandaicon h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  margin-left: 8px;
+
+  color: #ffffff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.footer-socialmedia-icon img {
+  margin-left: 24px;
+  width: 62px;
+}
+
+.hangingpanda {
+  position: absolute;
+  right: 0px;
+  padding-top: 20px;
+}
+
+/*----------------------------------------- FAQ -----------------------------------------*/
+
+.faq-container {
+  margin: 80px 0;
+  color: #fff;
+}
+
+.faq-container h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 60px;
+}
+
+.questioncss {
+  background-color: #006c9b;
+  margin-bottom: 12px;
+  padding: 12px 32px;
+  border-radius: 12px;
+}
+
+.questioncss h3 {
+  margin-bottom: 0 !important;
+}
+
+.answercss {
+  background-color: #065171;
+  padding: 22px 60px;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}

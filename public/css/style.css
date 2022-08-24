@@ -300,10 +300,10 @@ body {
 .story-bg {
   background-image: url("/image/mainbg.jpg");
   width: 100%;
-  height: 100vh !important;
   background-size: cover;
   background-position: center;
-  filter: drop-shadow(0px 10px 14px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0px 10px 14px rgba(0, 0, 0, 0.2));
+    padding-bottom: 50px;
 }
 
 .bg-black {
@@ -496,3 +496,126 @@ body {
   font-size: 20px;
   line-height: 30px;
 }
+
+.pandaGridBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+
+.pandaGridBar {
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+
+.pandaGridBar h1 {
+  width: 70%;
+  margin: 10px auto;
+  text-align: center;
+  text-shadow: 2px 2px rgba(90, 90, 90, 0.5);
+}
+
+.pandaBox {
+  width: 400px;
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(210, 210, 210, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(61, 61, 61, 0.37);
+  backdrop-filter: blur(35px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.pandaBox h2 {
+  text-align: center;
+}
+
+.tokenGridBox {
+  display: flex;
+  flex-direction: row;
+  margin: 50px auto;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.tokenBox {
+  width: 370px;
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(3, 102, 69);
+  box-shadow: 0 8px 32px 0 rgba(61, 61, 61, 0.37);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff
+}
+
+.tokenBox p {
+  font-size: 25px;
+}
+
+.tokenBox h2 {
+  height: 85px;
+}
+
+.tokenDistributionHeader {
+  text-align: center;
+  color: #fff;
+}
+
+.tokenTable {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin: auto;
+  flex-grow: 3;
+  justify-self: center;
+  justify-content: space-around;
+}
+
+.tokenColumn {
+  color: #000;
+  border-right: 1px solid #777;
+  background-color: #fff;
+  width: auto;
+}
+
+.tokenColumn:last-child {
+  border-right: none;
+}
+
+.tokenColumn h2 {
+  height: 90px;
+  background-color: rgba(3, 102, 69);
+  padding: 20px 10px;
+  color: #fff;
+}
+
+.tokenColumn p {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.tokenSale {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 60px auto;
+  background-color: rgba(3, 102, 69);
+}
+
+.tokenSale h2 {
+  height: 105px;
+  padding: 20px 10px;
+  color: #fff;
+  border-bottom: 1px solid #9999;
+}
+
+.tokenSale h2:last-child {
+  border-bottom: none;
+}
+
+.tokenSaleBox {}

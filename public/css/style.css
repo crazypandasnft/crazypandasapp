@@ -300,6 +300,7 @@ body {
 .story-bg {
   background-image: url("/image/mainbg.jpg");
   width: 100%;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   filter: drop-shadow(0px 10px 14px rgba(0, 0, 0, 0.2));
@@ -509,13 +510,15 @@ body {
   width: 80%;
   margin: auto;
   color: white;
+  padding: 80px;
 }
 
 .pandaGridBar h1 {
-  width: 70%;
+  width: 100%;
   margin: 10px auto;
-  text-align: center;
+  text-align: justify;
   text-shadow: 2px 2px rgba(90, 90, 90, 0.5);
+  font-size: 50px;
 }
 
 .pandaBox {
@@ -590,13 +593,13 @@ body {
 .tokenColumn h2 {
   height: 90px;
   background-color: rgba(3, 102, 69);
-  padding: 20px 10px;
+  padding: 20px;
   color: #fff;
 }
 
 .tokenColumn p {
   font-size: 20px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .tokenSale {

@@ -549,7 +549,10 @@ body {
   width: 370px;
   margin-top: 20px;
   padding: 20px;
-  background: rgba(3, 102, 69);
+  background: linear-gradient(90deg,
+        #0a8324 0,
+        #31971a 58%,
+        #036645);
   box-shadow: 0 8px 32px 0 rgba(61, 61, 61, 0.37);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -592,14 +595,27 @@ body {
 
 .tokenColumn h2 {
   height: 90px;
-  background-color: rgba(3, 102, 69);
   padding: 20px;
   color: #fff;
+  border-bottom: 1px solid #999;
 }
 
 .tokenColumn p {
   font-size: 20px;
   padding: 20px;
+  border-bottom: 1px solid #999;
+  }
+  
+  .tokenColumn p:last-child {
+    border-bottom: none;
+  }
+  
+  .tokenColumn:first-child {
+    background: linear-gradient(90deg,
+        #737373 0,
+        #a0a0a0 58%,
+        #585858);
+    color: #fff
 }
 
 .tokenSale {
@@ -607,18 +623,33 @@ body {
   flex-direction: row;
   justify-content: space-around;
   margin: 60px auto;
-  background-color: rgba(3, 102, 69);
+  background: linear-gradient(90deg,
+        #737373 0,
+        #a0a0a0 58%,
+        #585858);
 }
 
 .tokenSale h2 {
   height: 105px;
+  margin: 0px;
   padding: 20px 10px;
   color: #fff;
+  background: linear-gradient(90deg,
+        #737373 0,
+        #a0a0a0 58%,
+        #585858);
   border-bottom: 1px solid #9999;
 }
 
 .tokenSale h2:last-child {
   border-bottom: none;
+}
+
+.tokenHeader {
+  background: linear-gradient(90deg,
+      #0a8324 0,
+      #31971a 58%,
+      #036645);
 }
 
 .tokenSaleBox {}

@@ -8,11 +8,9 @@ import zeniakBoy from "./image/zeniak-boy.png";
 import Hangingpanda from "./image/hangingpanda.png"
 import PandaGif from "./image/panda-giff.gif"
 
-
 // import Mainbg from "./image/mainbg.png"
 
-
-const StorySoFar = () => {
+const AboutUs = () => {
   return (
     <>
       {/* section-1 */}
@@ -23,9 +21,61 @@ const StorySoFar = () => {
         {/* <div className="logo-secton mx-auto col-10">
           <img className="panda-logo" src={FrontImg} alt="" />
         </div> */}
+        <div className="pandaGridBar">
+          <h1>
+            CrazyPanda is an NFT themed project on the BSC ecosystem. Fusing aesthetically pleasing panda art 
+            with Run to Earn Gaming. 
+          </h1>
+          <div className="pandaGridBox">
+            <div className="pandaBox">
+              <h2>CrazyPanda Nfts</h2>
+              <p>
+                CrazyPanda NFT is the base  of the entire project and movement, a collection of 3500 Panda Nfts based on Ethereum blockchain lead by zeniak in search for the secret  source of intelligence.
+              </p>
+            </div>
+
+            <div className="pandaBox">
+              <h2>CrazyClan</h2>
+              <p>
+                An immaculate collection of 3500 diverse pandas that grant you exclusive access to the Crazy Clan, where together, we build a virtuous community in which members can interact and share value through Exclusive merch drops, outdoor campaigns, collaborations with other crypto projects and world-renowned brands doing social good.
+              </p>
+            </div>
+
+            <div className="pandaBox">
+              <h2>Run to Earn 🏃‍♂️</h2>
+              <p>
+                CrazyPanda features 10 fun, fast paced levels with the degree of difficulty increasing as the player progresses. Players must navigate over and under obstacles , monsters, water and even a volcano raged city to reach the fountain of intelligence and complete the game and earn tokens.
+              </p>
+            </div>
+
+            <div className="pandaBox">
+              <h2>Staking</h2>
+              <p>
+                Holders can either stake their $BAMBOO tokens to earn more tokens or access the run to earn game, where winners will receive their token rewards, we also have plans in the future to have exclusive NFT drops for token holders and NFT holders .
+                CrazyPanda NFT holders will have access to special pool where they will earn staking rewards in BNB
+              </p>
+            </div>
+
+            <div className="pandaBox">
+              <h2>Marketplace </h2>
+              <p>
+                With $BAMBOO token, you will be able to trade in our in marketplace , where you can easily sell or buy CrazyPanda Nfts as an alternative to opensea . The marketplace will equipped with superior features that give you the best trading experience and money-making opportunities.
+              </p>
+            </div>
+
+            <div className="pandaBox">
+              <h2>Auctions & Raffle</h2>
+              <p>
+                There will be several auctions to take place and part of the proceeds will be used to buy-back $BAMBOO and burn it. we will auction : Selected Whitelist Spots, NFTs
+                exclusive Game Skin, Game collectibles and a lot more.
+              </p>
+            </div>
+          </div>
+        </div>
         </div>
 
       {/* section-2 */}
+      
       <div className="hellomsg">
         <div className="bg-black">
         <div className="hellomsg-text mx-auto col-10">
@@ -106,4 +156,4 @@ const StorySoFar = () => {
   );
 };
 
-export default StorySoFar;
+export default AboutUs;

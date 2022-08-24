@@ -4,10 +4,11 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Stake from "./Stake";
-import StorySoFar from "./StorySoFar";
+import AboutUs from "./AboutUs";
 import Game from "./Game";
 import Faq from "./Faq";
 import Roadmap from "./Roadmap";
+import Tokenomics from "./Tokenomics";
 
 const Main = () => {
   return (
@@ -15,9 +16,10 @@ const Main = () => {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/stake" element={<Stake />} />
-        <Route exact path="/story-so-far" element={<StorySoFar />} />
+        <Route exact path="/about" element={<AboutUs />} />
         <Route exact path="/game" element={<Game />} />
         <Route exact path="/roadmap" element={<Roadmap />} />
+        <Route exact path="/tokenomics" element={<Tokenomics />} />
         <Route exact path="/faq" element={<Faq />} />
       </Routes>
     </>

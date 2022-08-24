@@ -17,7 +17,7 @@ const App = () => {
   return (
     <>
 
-      { loading ? <Loader/> : "" }
+      {/* { loading ? <Loader/> : "" } */}
       <Main/>
 
     </>

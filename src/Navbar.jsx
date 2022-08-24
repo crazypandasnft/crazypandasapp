@@ -38,9 +38,9 @@ const Navbar = () => {
                       <NavLink
                         className="nav-link active navtext"
                         aria-current="page"
-                        to="/story-so-far"
+                        to="/about"
                       >
-                        STORY SO FAR
+                        ABOUT US
                       </NavLink>
                     </li>
                     <li className="nav-item">
@@ -57,6 +57,12 @@ const Navbar = () => {
                     <li className="nav-item">
                       <NavLink className="nav-link navtext" to="/roadmap">
                         ROADMAP
+                      </NavLink>
+                    </li>
+
+                    <li className="nav-item">
+                      <NavLink className="nav-link navtext" to="/tokenomics">
+                        TOKENOMICS
                       </NavLink>
                     </li>
 

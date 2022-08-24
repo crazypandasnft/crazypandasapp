@@ -57,7 +57,7 @@ const Tokenomics = () => {
                         </div>
 
                         <div className="tokenColumn">
-                        <h2>100.0% </h2>
+                        <h2 className="tokenHeader">100.0% </h2>
                         <p>46.5%</p>
                         <p>34.0%</p>
                         <p>6.0%</p>
@@ -67,7 +67,7 @@ const Tokenomics = () => {
                         </div>
 
                         <div className="tokenColumn">
-                        <h2>1,000,000,000</h2>
+                        <h2 className="tokenHeader">1,000,000,000</h2>
                         <p>465,000,000</p>
                         <p>340,000,000</p>
                         <p>60,000,000</p>
@@ -78,7 +78,7 @@ const Tokenomics = () => {
                         </div>
 
                         <div className="tokenColumn">
-                        <h2> </h2>
+                        <h2 className="tokenHeader"> </h2>
                         <p>Liquidity distribution for dex</p>
                         <p>FOR Game rewards and staking benefit in need arise</p>
                         <p>10% upon exchange listing and 10% every month after</p>
@@ -90,7 +90,7 @@ const Tokenomics = () => {
                     <div className="tokenSale">
                         <div className="tokenSaleColumn">
                         <h2>Sale</h2>
-                        <h2>Presale & Initial Liquidity</h2>
+                        <h2 style={{fontSize:'25px'}}>Presale & Initial Liquidity</h2>
                         </div>
 
                         <div className="tokenSaleColumn">
@@ -105,10 +105,9 @@ const Tokenomics = () => {
 
                         <div className="tokenSaleColumn">
                         <h2>Vesting Schedule</h2>
-                        <h2>60% Released at TGE 10% Weekly , 1 month after listing</h2>
+                        <h2 style={{fontSize:'20px'}}>60% Released at TGE, <br/> 10% Weekly , <br/>1 month after listing</h2>
                         </div>
                     </div>
-                    
                   </div>
                 </div>
               </div>

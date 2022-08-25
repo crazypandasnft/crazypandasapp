@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Main from "./Main";
-import Loader from "./Loader";
+//import Loader from "./Loader";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -11,7 +11,7 @@ const App = () => {
     setTimeout(() => {
       setLoading(false);
       document.body.classList.remove('overflow-hidden');
-    }, 9000);
+    }, 1000);
   }, []);
 
   return (

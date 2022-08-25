@@ -653,3 +653,62 @@ body {
 }
 
 .tokenSaleBox {}
+.team-section-container {
+  width: 90%;
+  margin: auto;
+  color: #fff;
+}
+
+
+.team-section-bg {
+  background-color: #000;
+  border-bottom: 1px solid #888;
+  padding: 50px 0;
+}
+
+.team-section-bg h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.team-upper-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-lower-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.team-upper-bar div {
+  width: 400px;
+  margin-top: 30px;
+}
+
+.team-lower-bar div {
+  width: 400px;
+  margin-top: 30px;
+}
+
+.team-section-container img {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.team-section-container p {
+  text-align: center;
+  margin: 0px;
+  font-size: 25px;
+}
+
+.team-role {
+  font-size: 20px !important;
+  color: #cfcfcf !important
+}

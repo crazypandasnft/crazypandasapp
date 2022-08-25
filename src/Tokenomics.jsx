@@ -17,7 +17,7 @@ const Tokenomics = () => {
                 <div className="staking-title">Token Breakdown</div>
               </div>
 
-              <div className="container  ">
+              <div className="container">
                 <div className="row ">
                   <div className="col-12 d-flex justify-content-center flex-column mx-auto mb-0">
                     {/* { first row } */}

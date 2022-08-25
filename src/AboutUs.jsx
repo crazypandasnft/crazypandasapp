@@ -167,29 +167,29 @@ const AboutUs = () => {
               <div>
                 <img src={panda1} alt="panda pic"/>
                 <p>Graham Bell</p>
-                <p>Tech Lead</p>
+                <p className="team-role">Tech Lead</p>
               </div>
               <div>
                 <img src={panda2} alt="panda pic"/>
                 <p>Isaac Newton</p>
-                <p>Web3 devrel</p>
+                <p className="team-role">Web3 devrel</p>
               </div>
               <div>
                 <img src={panda3} alt="panda pic"/>
                 <p>Nikola Tesla</p>
-                <p>Head of research</p>
+                <p className="team-role">Head of research</p>
               </div>
             </div>
             <div className="team-lower-bar">
               <div>
                 <img src={panda4} alt="panda pic"/>
                 <p>Vincent VanGogh</p>
-                <p>NFT artist</p>
+                <p className="team-role">NFT artist</p>
               </div>
               <div>
                 <img src={panda5} alt="panda pic"/>
                 <p>Albert Einstein</p>
-                <p>Head Marketing</p>
+                <p className="team-role">Head Marketing</p>
               </div>
             </div>
           </div>

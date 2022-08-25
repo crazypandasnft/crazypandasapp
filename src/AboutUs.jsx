@@ -7,6 +7,11 @@ import PandaInfo from "./image/background.png";
 import zeniakBoy from "./image/zeniak-boy.png";
 import Hangingpanda from "./image/hangingpanda.png"
 import PandaGif from "./image/panda-giff.gif"
+import panda1 from './image/panda-1.png'
+import panda2 from './image/panda-2.png'
+import panda3 from './image/panda-3.png'
+import panda4 from './image/panda-4.png'
+import panda5 from './image/panda-5.png'
 
 // import Mainbg from "./image/mainbg.png"
 
@@ -154,6 +159,42 @@ const AboutUs = () => {
           </div>
         </div>
       </Parallax>
+       <div className="team-section-bg">
+        <div className="team-section-container">
+          <div className="team-section-text">
+            <h1>The Team</h1>
+            <div className="team-upper-bar">
+              <div>
+                <img src={panda1} alt="panda pic"/>
+                <p>Graham Bell</p>
+                <p>Tech Lead</p>
+              </div>
+              <div>
+                <img src={panda2} alt="panda pic"/>
+                <p>Isaac Newton</p>
+                <p>Web3 devrel</p>
+              </div>
+              <div>
+                <img src={panda3} alt="panda pic"/>
+                <p>Nikola Tesla</p>
+                <p>Head of research</p>
+              </div>
+            </div>
+            <div className="team-lower-bar">
+              <div>
+                <img src={panda4} alt="panda pic"/>
+                <p>Vincent VanGogh</p>
+                <p>NFT artist</p>
+              </div>
+              <div>
+                <img src={panda5} alt="panda pic"/>
+                <p>Albert Einstein</p>
+                <p>Head Marketing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <Footer />
     </>
   );

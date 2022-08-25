@@ -26,13 +26,9 @@ const AboutUs = () => {
         {/* <div className="logo-secton mx-auto col-10">
           <img className="panda-logo" src={FrontImg} alt="" />
         </div> */}
-       
-        </div>
 
-      {/* section-2 */}
-      <Parallax strength={600} bgImage={PandaInfo} className="panda-info">
         <div className="pandaGridBar">
-          <h1>
+          <h1 className="h2">
             CrazyPanda is an NFT themed project on the BSC ecosystem. Fusing aesthetically pleasing panda art 
             with Run to Earn Gaming. 
           </h1>
@@ -82,7 +78,10 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-      </Parallax>
+       
+        </div>
+
+      {/* section-2 */}
       
       <div className="hellomsg">
         <div className="bg-black">

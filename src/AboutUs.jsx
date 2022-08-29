@@ -128,7 +128,7 @@ const AboutUs = () => {
       <div className="team-section-bg">
         <div className="team-section-container">
           <div className="team-section-text">
-            <h1>The Team</h1>
+            <h2 className="h2 text-center">The Team</h2>
             <div className="team-upper-bar">
               <div>
                 <img src={panda1} alt="panda pic" />

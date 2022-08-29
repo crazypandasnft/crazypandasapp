@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { FaTwitter } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
+import { FaTelegram } from 'react-icons/fa';
 import Icon from "./image/pandaicon.png"
 
 const Navbar = () => {
@@ -53,19 +54,16 @@ const Navbar = () => {
                         STAKE
                       </NavLink>
                     </li>
-
                     <li className="nav-item">
                       <NavLink className="nav-link navtext" to="/roadmap">
                         ROADMAP
                       </NavLink>
                     </li>
-
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <NavLink className="nav-link navtext" to="/tokenomics">
                         TOKENOMICS
                       </NavLink>
-                    </li>
-
+                    </li> */}
                     <li className="nav-item">
                       {/* <NavLink className="nav-link navtext" to="#">
                         Whitepaper
@@ -75,11 +73,20 @@ const Navbar = () => {
                       </a>
                     </li>
                     <li className="nav-item">
+                      <NavLink className="nav-link navtext" to="/faq">
+                        FAQ
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
                       <a className="nav-link navtext nav-icon" rel="noreferrer" target="_blank" href="https://twitter.com/CrazyPanda_NFT">
                         <FaTwitter />
                       </a>
                     </li>
-
+                    <li className="nav-item">
+                      <a className="nav-link navtext nav-icon" rel="noreferrer" target="_blank" href="https://t.me/CrazypandaAnn">
+                      <FaTelegram />
+                      </a>
+                    </li>
                     <li className="nav-item">
                       <NavLink className="nav-link navtext nav-icon" to="#">
                         <FaDiscord />

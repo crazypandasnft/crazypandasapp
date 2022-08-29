@@ -9,7 +9,7 @@ const Faqbox = ({question, answer}) => {
           <h4 style={{cursor: "pointer"}} className='plusminusbtn' onClick={() => setshow(!show)}>{show? "➖" : "➕"}</h4>
       </div>
       {
-          show && <p className='answercss text-start'>{answer}</p>
+          show && <p className='answercss text-start' dangerouslySetInnerHTML={{__html:answer}}></p>
       }
       
       </>

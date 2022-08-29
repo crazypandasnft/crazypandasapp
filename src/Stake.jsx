@@ -15,7 +15,7 @@ const Stake = () => {
                 <div className="panda">
                 <img src={Icon} alt="" />
                 </div>
-                <div className="staking-title">PANDA STAKING</div>
+                <div className="staking-title">Panda Staking</div>
               </div>
 
               <div className="container  ">
@@ -25,17 +25,17 @@ const Stake = () => {
                     <div className="d-flex justify-content-between stakingtext">
                       <div className="col-lg-4 text-center ">
                         <p>Total CrazyPanda Staked</p>
-                        <h1>1025</h1>
+                        <h1>0</h1>
                       </div>
 
                       <div className="col-lg-4 text-center ">
                         <p>% of CrazyPanda Staked</p>
-                        <h1>10.3% </h1>
+                        <h1>0</h1>
                       </div>
 
                       <div className="col-lg-4 text-center ">
                         <p>Minimum Value Locked</p>
-                        <h1> $15,556,809</h1>
+                        <h1>0</h1>
                       </div>
                     </div>
                     {/* { second row } */}
